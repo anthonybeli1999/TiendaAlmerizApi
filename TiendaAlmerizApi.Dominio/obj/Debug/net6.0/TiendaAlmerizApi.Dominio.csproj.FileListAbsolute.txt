@@ -1,0 +1,12 @@
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\bin\Debug\net6.0\TiendaAlmerizApi.Dominio.deps.json
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\bin\Debug\net6.0\TiendaAlmerizApi.Dominio.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\bin\Debug\net6.0\TiendaAlmerizApi.Dominio.pdb
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\TiendaAlmerizApi.Dominio.csproj.AssemblyReference.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\TiendaAlmerizApi.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\TiendaAlmerizApi.Dominio.AssemblyInfoInputs.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\TiendaAlmerizApi.Dominio.AssemblyInfo.cs
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\TiendaAlmerizApi.Dominio.csproj.CoreCompileInputs.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\TiendaAlmerizApi.Dominio.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\refint\TiendaAlmerizApi.Dominio.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\TiendaAlmerizApi.Dominio.pdb
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Dominio\obj\Debug\net6.0\ref\TiendaAlmerizApi.Dominio.dll

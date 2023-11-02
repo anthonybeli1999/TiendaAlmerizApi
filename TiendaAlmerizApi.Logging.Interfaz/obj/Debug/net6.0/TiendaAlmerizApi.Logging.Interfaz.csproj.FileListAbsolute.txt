@@ -1,0 +1,12 @@
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\bin\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.deps.json
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\bin\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\bin\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.pdb
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.csproj.AssemblyReference.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.AssemblyInfoInputs.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.AssemblyInfo.cs
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.csproj.CoreCompileInputs.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\refint\TiendaAlmerizApi.Logging.Interfaz.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\TiendaAlmerizApi.Logging.Interfaz.pdb
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Logging.Interfaz\obj\Debug\net6.0\ref\TiendaAlmerizApi.Logging.Interfaz.dll

@@ -1,0 +1,12 @@
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\bin\Debug\net6.0\TiendaAlmerizApi.Excepciones.deps.json
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\bin\Debug\net6.0\TiendaAlmerizApi.Excepciones.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\bin\Debug\net6.0\TiendaAlmerizApi.Excepciones.pdb
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\TiendaAlmerizApi.Excepciones.csproj.AssemblyReference.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\TiendaAlmerizApi.Excepciones.GeneratedMSBuildEditorConfig.editorconfig
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\TiendaAlmerizApi.Excepciones.AssemblyInfoInputs.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\TiendaAlmerizApi.Excepciones.AssemblyInfo.cs
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\TiendaAlmerizApi.Excepciones.csproj.CoreCompileInputs.cache
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\TiendaAlmerizApi.Excepciones.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\refint\TiendaAlmerizApi.Excepciones.dll
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\TiendaAlmerizApi.Excepciones.pdb
+E:\ALMERIZ\TiendaAlmerizApi\TiendaAlmerizApi.Excepciones\obj\Debug\net6.0\ref\TiendaAlmerizApi.Excepciones.dll

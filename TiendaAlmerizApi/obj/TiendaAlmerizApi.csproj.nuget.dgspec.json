@@ -1,0 +1,513 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi\\TiendaAlmerizApi.csproj": {}
+  },
+  "projects": {
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\TiendaAlmerizApi.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\TiendaAlmerizApi.Aplicacion.csproj",
+        "projectName": "TiendaAlmerizApi.Aplicacion",
+        "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\TiendaAlmerizApi.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj"
+              },
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj",
+        "projectName": "TiendaAlmerizApi.Core",
+        "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Datos\\TiendaAlmerizApi.Datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Datos\\TiendaAlmerizApi.Datos.csproj",
+        "projectName": "TiendaAlmerizApi.Datos",
+        "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Datos\\TiendaAlmerizApi.Datos.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj"
+              },
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj",
+        "projectName": "TiendaAlmerizApi.Dominio",
+        "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Infraestructura.Contenedor\\TiendaAlmerizApi.Infraestructura.Contenedor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Infraestructura.Contenedor\\TiendaAlmerizApi.Infraestructura.Contenedor.csproj",
+        "projectName": "TiendaAlmerizApi.Infraestructura.Contenedor",
+        "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Infraestructura.Contenedor\\TiendaAlmerizApi.Infraestructura.Contenedor.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Infraestructura.Contenedor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\TiendaAlmerizApi.Aplicacion.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\TiendaAlmerizApi.Aplicacion.csproj"
+              },
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Datos\\TiendaAlmerizApi.Datos.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Datos\\TiendaAlmerizApi.Datos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Logging.Interfaz\\TiendaAlmerizApi.Logging.Interfaz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Logging.Interfaz\\TiendaAlmerizApi.Logging.Interfaz.csproj",
+        "projectName": "TiendaAlmerizApi.Logging.Interfaz",
+        "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Logging.Interfaz\\TiendaAlmerizApi.Logging.Interfaz.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Logging.Interfaz\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi\\TiendaAlmerizApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi\\TiendaAlmerizApi.csproj",
+        "projectName": "TiendaAlmerizApi",
+        "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi\\TiendaAlmerizApi.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\TiendaAlmerizApi.Aplicacion.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Aplicacion\\TiendaAlmerizApi.Aplicacion.csproj"
+              },
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Core\\TiendaAlmerizApi.Core.csproj"
+              },
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Dominio\\TiendaAlmerizApi.Dominio.csproj"
+              },
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Infraestructura.Contenedor\\TiendaAlmerizApi.Infraestructura.Contenedor.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Infraestructura.Contenedor\\TiendaAlmerizApi.Infraestructura.Contenedor.csproj"
+              },
+              "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Logging.Interfaz\\TiendaAlmerizApi.Logging.Interfaz.csproj": {
+                "projectPath": "E:\\ALMERIZ\\TiendaAlmerizApi\\TiendaAlmerizApi.Logging.Interfaz\\TiendaAlmerizApi.Logging.Interfaz.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
