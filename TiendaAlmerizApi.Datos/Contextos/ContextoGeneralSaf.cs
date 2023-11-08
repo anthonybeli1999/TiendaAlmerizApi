@@ -19,6 +19,13 @@ namespace TiendaAlmerizApi.Datos.Contextos
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.ApplyConfiguration(new ColorConfiguracion());
+            modelBuilder.ApplyConfiguration(new MaterialConfiguracion());
+            modelBuilder.ApplyConfiguration(new CategoriaConfiguracion());
+            modelBuilder.ApplyConfiguration(new SubcategoriaConfiguracion());
+            modelBuilder.ApplyConfiguration(new ClienteConfiguracion());
+            modelBuilder.ApplyConfiguration(new ValoracionConfiguracion());
+            modelBuilder.ApplyConfiguration(new PedidoConfiguracion());
             #region PR
             modelBuilder.ApplyConfiguration(new ColorConfiguracion());
 
