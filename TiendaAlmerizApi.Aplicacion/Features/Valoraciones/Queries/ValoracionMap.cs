@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using TiendaAlmerizApi.Dominio.Dtos.PR;
 using TiendaAlmerizApi.Dominio.Entidades.PR;
 
-namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Queries
+namespace TiendaAlmerizApi.Aplicacion.Features.Valoraciones.Queries
 {
     /// <summary>
     /// Clase static de las subcategorias
@@ -18,7 +18,7 @@ namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Queries
         /// </summary>
         /// <param name="agencia">Entidad Agencia</param>
         /// <returns>AgenciaVm</returns>
-        public static DtoValoracion MapearEntidadADto(Valoraciones valoracion)
+        public static DtoValoracion MapearEntidadADto(Valoracion valoracion)
         {
             return new DtoValoracion
             {

@@ -9,7 +9,7 @@ namespace TiendaAlmerizApi.Dominio.Entidades.PR
     /// <summary>
     /// Clase que representa la entidad valoracion
     /// </summary>
-    public class Valoraciones
+    public class Valoracion
     {
         /// <summary>
         /// Id de la valoracion
@@ -56,10 +56,10 @@ namespace TiendaAlmerizApi.Dominio.Entidades.PR
         /// </summary>
         public string UsuarioModificacion { get; private set; }
 
-        public static Valoraciones Crear(string Comentario,int Puntaje, int IdCliente,
+        public static Valoracion Crear(string Comentario,int Puntaje, int IdCliente,
             string usuarioRegistro)
         {
-            return new Valoraciones
+            return new Valoracion
             {
                 Comentario = Comentario,
                 Puntaje = Puntaje,

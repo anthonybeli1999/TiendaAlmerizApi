@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Commands
+namespace TiendaAlmerizApi.Aplicacion.Features.Valoraciones.Commands
 {
     public class ModificarEstadoValoracionCommand : IRequest<int>
     {

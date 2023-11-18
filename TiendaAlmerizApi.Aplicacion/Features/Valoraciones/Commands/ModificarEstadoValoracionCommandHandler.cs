@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using TiendaAlmerizApi.Core.Repositorios;
 using TiendaAlmerizApi.Dominio.Entidades.PR;
 
-namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Commands
+namespace TiendaAlmerizApi.Aplicacion.Features.Valoraciones.Commands
 {
     public class ModificarEstadoValoracionCommandHandler : IRequestHandler<ModificarEstadoValoracionCommand, int>
     {
@@ -23,7 +23,7 @@ namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Commands
             CancellationToken cancellationToken)
         {
             var valoracion = _repositorioOperacionGeneral
-                .ObtenerPorCodigo<Valoraciones>(request.IdValoracion);
+                .ObtenerPorCodigo<Valoracion>(request.IdValoracion);
 
             valoracion.InactivarValoracion();
             _repositorioOperacionGeneral.GuardarCambios();

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TiendaAlmerizApi.Dominio.Dtos.PR;
 
-namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Queries
+namespace TiendaAlmerizApi.Aplicacion.Features.Valoraciones.Queries
 {
     public class ObtenerValoracionesQuery : IRequest<IEnumerable<DtoValoracion>>
     {

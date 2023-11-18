@@ -14,8 +14,8 @@ using TiendaAlmerizApi.Aplicacion.Features.Clientes.Queries;
 using TiendaAlmerizApi.Aplicacion.Features.Clientes.Commands;
 using TiendaAlmerizApi.Aplicacion.Features.Subcategorias.Queries;
 using TiendaAlmerizApi.Aplicacion.Features.Subcategorias.Commands;
-using TiendaAlmerizApi.Aplicacion.Features.Valoracion.Queries;
-using TiendaAlmerizApi.Aplicacion.Features.Valoracion.Commands;
+using TiendaAlmerizApi.Aplicacion.Features.Valoraciones.Queries;
+using TiendaAlmerizApi.Aplicacion.Features.Valoraciones.Commands;
 using TiendaAlmerizApi.Aplicacion.Features.Pedidos.Queries;
 using TiendaAlmerizApi.Aplicacion.Features.Pedidos.Commands;
 
@@ -30,7 +30,8 @@ namespace TiendaAlmerizApi.Controllers
         public ProductosController(IMediator mediator) : base(mediator)
         {
         }
-        #region
+
+        #region Colores
         [HttpGet]
         [Route("colores")]
         [ProducesResponseType(typeof(IEnumerable<DtoColores>), (int)HttpStatusCode.OK)]
@@ -64,8 +65,7 @@ namespace TiendaAlmerizApi.Controllers
         }
         #endregion
 
-        #region
-        //RUTA PARA MATERIAL
+        #region Material
         [HttpGet]
         [Route("materiales")]
         [ProducesResponseType(typeof(IEnumerable<DtoMaterial>), (int)HttpStatusCode.OK)]
@@ -99,8 +99,7 @@ namespace TiendaAlmerizApi.Controllers
         }
         #endregion
 
-        #region
-        //RUTA PARA CATEGORIA
+        #region Categoria
         [HttpGet]
         [Route("categorias")]
         [ProducesResponseType(typeof(IEnumerable<DtoCategoria>), (int)HttpStatusCode.OK)]
@@ -134,8 +133,7 @@ namespace TiendaAlmerizApi.Controllers
         }
         #endregion
 
-        #region
-        //RUTA PARA SUBCATEGORIA
+        #region Subcategoria
         [HttpGet]
         [Route("subcategorias")]
         [ProducesResponseType(typeof(IEnumerable<DtoSubcategoria>), (int)HttpStatusCode.OK)]
@@ -169,8 +167,7 @@ namespace TiendaAlmerizApi.Controllers
         }
         #endregion
 
-        #region
-        //RUTA PARA CLIENTE
+        #region Cliente
         [HttpGet]
         [Route("clientes")]
         [ProducesResponseType(typeof(IEnumerable<DtoCliente>), (int)HttpStatusCode.OK)]
@@ -204,8 +201,7 @@ namespace TiendaAlmerizApi.Controllers
         }
         #endregion
 
-        #region
-        //RUTA PARA VALORACION
+        #region Valoracion
         [HttpGet]
         [Route("valoraciones")]
         [ProducesResponseType(typeof(IEnumerable<DtoValoracion>), (int)HttpStatusCode.OK)]
@@ -239,9 +235,7 @@ namespace TiendaAlmerizApi.Controllers
         }
         #endregion
 
-
-        #region
-        //RUTA PARA PEDIDOS
+        #region Pedidos
         [HttpGet]
         [Route("pedidos")]
         [ProducesResponseType(typeof(IEnumerable<DtoPedido>), (int)HttpStatusCode.OK)]

@@ -9,9 +9,9 @@ using TiendaAlmerizApi.Dominio.Entidades.PR;
 
 namespace TiendaAlmerizApi.Datos.Configuraciones.PR
 {
-    public class ValoracionConfiguracion : IEntityTypeConfiguration<Valoraciones>
+    public class ValoracionConfiguracion : IEntityTypeConfiguration<Valoracion>
     {
-        public void Configure(EntityTypeBuilder<Valoraciones> builder)
+        public void Configure(EntityTypeBuilder<Valoracion> builder)
         {
             builder.ToTable("PR_VALORACION", "PR");
             builder.HasKey(m => new { m.IdValoracion });

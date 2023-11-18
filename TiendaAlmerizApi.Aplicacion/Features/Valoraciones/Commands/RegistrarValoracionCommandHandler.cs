@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using TiendaAlmerizApi.Core.Repositorios;
 using TiendaAlmerizApi.Dominio.Entidades.PR;
 
-namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Commands
+namespace TiendaAlmerizApi.Aplicacion.Features.Valoraciones.Commands
 {
     public class RegistrarValoracionCommandHandler : IRequestHandler<RegistrarValoracionCommand, int>
     {
@@ -22,7 +22,7 @@ namespace TiendaAlmerizApi.Aplicacion.Features.Valoracion.Commands
         public async Task<int> Handle(RegistrarValoracionCommand request,
             CancellationToken cancellationToken)
         {
-            var valoracion = Valoraciones.Crear(request.Comentario,request.Puntaje, request.IdCliente,
+            var valoracion = Valoracion.Crear(request.Comentario,request.Puntaje, request.IdCliente,
                 request.UsuarioRegistro);
 
             var nuevoValoracion = await _repositorioOperacionGeneral
